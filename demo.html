@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>jQuery-Path Demo</title>
+    </head>
+    <style>
+    .active {font-weight: bold; color: red;}
+    </style>
+    <body>
+        <h1>jQuery-Path Demo</h1>
+        <p>This is just a <a href="test.html">test.html</a>. And this is a fake <a href="fake.html">link</a>.</p>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script src="jquery.path.js"></script>
+        <script>
+        $("a:path").addClass("active");
+        </script>
+    </body>
+</html>
